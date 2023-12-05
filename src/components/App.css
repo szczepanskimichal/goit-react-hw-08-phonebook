@@ -1,0 +1,20 @@
+/* .wrapper {
+  margin-top: 40px;
+  margin-left: 40px;
+} */
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto; /* Centrowanie poziome */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrowanie pionowe */
+  min-height: 100vh; /* Minimalna wysokość okna przeglądarki */
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 10px;
+  }
+}
