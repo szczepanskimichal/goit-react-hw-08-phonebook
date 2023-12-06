@@ -1,8 +1,9 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import { Contacts, Home, LoginPage, RegisterPage, NotFound } from '../pages';
+import { Contacts, Home, LoginPage, RegisterPage, NotFound } from './pages';
 import { Navigation } from './Navigation';
+import { formToJSON } from 'axios';
 
 const App = () => {
   return (
