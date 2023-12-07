@@ -1,9 +1,9 @@
-/* .wrapper {
+.wrapper {
   margin-top: 40px;
   margin-left: 40px;
-} */
+}
 
-.wrapper {
+/* .wrapper {
   max-width: 800px;
   margin: 0 auto; /* Centrowanie poziome */
   padding: 20px;
@@ -17,4 +17,4 @@
   .wrapper {
     padding: 10px;
   }
-}
+} 
