@@ -7,7 +7,7 @@ import {
   Header,
   Container,
   RegisterMenuContainer,
-} from './components/Navigation/Navigation.styled.css';
+} from './Navigation.styled';
 import { Loader } from '../Loader';
 import { isUserLoged } from '../../redux/auth/selectors';
 import { UserMenu } from '../UserMenu';
